@@ -2,6 +2,9 @@ name: SQLMesh Bot
 run-name: 🚀SQLMesh Bot 🚀
 on:
   push:
+    branches:
+      - 'main'
+      - 'develop'
   pull_request:
     types:
     - synchronize
